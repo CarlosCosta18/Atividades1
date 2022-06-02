@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs Basicos</title>
+</head>
+<body>
+        <section>
+        <h1>Inputs basicos</h1>
+    </section>
+        <form action="/html/inputsBasicos.html" method="post">
+            
+            <label>Nome</label> <br>
+            <input placeholder="insira seu nome" type="text" name="nome" class="" id="" /> <br>
+ 
+            <div>
+            <label>Senha</label> <br>
+            <input placeholder="insira sua senha" type="password" name="senha" /> <br>
+            </div>
+            <br>
+            <label>Time</label>><br>
+            <input type="text" placeholder="insira seu time" name="time" list="lista_times">
+            <datalist id="lista_times">
+                <option value="São Paulo" />
+                <option value="Palmeiras" />
+                <option value="Santos" />
+            </datalist> 
+
+            <label>opções</label> <br>
+            <input type="radio" name="opção">A
+            <input type="radio" name="opção">B
+            <input type="radio" name="opção">C
+            <input type="radio" name="opção">D <br> 
+
+            <label>Multipla Escolha</label> <br>
+            <input type="checkbox" name="multiplo"> A
+            <input type="checkbox" name="multiplo"> B
+            <input type="checkbox" name="multiplo"> C
+            <br>
+
+            <label>textarea</label> <br>
+            <textarea name="texto" cols="50" rows="10"></textarea>
+
+            <label>arquivo</label> <br>
+            <input type="file" name="arquivo" /> <br>
+
+
+            <label>sexo</label> <br>
+            <select name="sexo" id=""> 
+                <option value="">Selecione</option>
+                <option value="masculico">Masculino</option>
+                <option selected value="femimino">Feminino</option>
+            </select> <br>
+
+            <label>marcas de carros</label>
+            <select name="carros" id="">
+                <optgroup label="alemas">
+                    <option value="mercedes">mercedes</option>
+                    <option value="audi">audi</option>
+                </optgroup>
+
+                <optgroup label="suecos">
+                    <option value="volvo">volvo</option>
+                    <option value="nana">nana</option>
+                </optgroup>
+            </select>
+
+            <input type="button" value="botao sem ação" name="botãosemnome"> <br>  
+                <input type="submit" value="enviar">
+        </form>
+
+</body>
+</html>

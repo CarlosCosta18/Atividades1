@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo CSS 5</title>
+</head>
+
+<style>
+    body{
+        margin: 0px;
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+
+    ul{
+        list-style: none;
+        background-color: blueviolet;
+        padding: 0px;
+        margin: 0px;
+    }
+    ul > li {
+        display: inline-block;
+        padding: 0px;
+        margin: 0px;
+        font-size: 24px;
+        padding: 10px;
+        margin: 5px;
+        background-color: aliceblue;
+        border-radius: 10px 10px 10px 10px;
+        text-transform: lowercase;
+        
+    }
+     
+     ul > li:hover{
+
+        background-color: darkorchid;
+        cursor: pointer;
+        color: white;
+
+     }
+
+     #conteudo{
+         background-color: rgb(134, 42, 255);
+         width: 500px;
+         padding: 100px;
+         position: fixed;
+         top: 0px;
+         right: 0px;
+         border: solid 4px black;
+         border-radius: 20px 0px 0px 20px;
+         text-transform: uppercase;
+         font-weight: 400;
+     }
+</style>
+<body>
+    
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+
+    <div id="conteudo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum libero aut eius quaerat aperiam voluptatum sed et ullam ipsa. Itaque nostrum at deserunt ex quisquam praesentium mollitia repellat dignissimos accusantium?
+    </div>
+
+    <br>
+    
+
+    
+
+</body>
+</html>

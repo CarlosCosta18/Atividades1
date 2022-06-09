@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Exemplo CSS 2</title>
+    <style>
+        h1 {
+            color: blueviolet;
+            font-size: 45px;
+            border: 14px;
+            
+        }
+
+        body{
+            background-color: aquamarine;
+        }
+
+        input{
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        label{
+            font-weight: bold;
+            text-transform: uppercase;
+
+        }
+
+        .traço{
+            border: dashed 2px #000;
+        }
+
+        #campoemail{
+            height: 45px;
+        }
+
+        #boxexemplo{
+            width: 400px;
+            height: 400px;
+            background-color: #3d369099;
+            position: absolute;
+            top: 0px;
+            z-index: 1;
+
+        }
+
+        form{
+            display: block;
+            z-index: 2;
+            position: absolute;
+            background-color: azure;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Exemplo CSS 2</h1>
+
+    <form action="" method="post">
+        <label>nome</label>
+        <input type="text" name="nome">
+
+        <label>Senha</label>
+        <input class="traço" type="password" name="senha">
+
+        <label>Email</label>
+        <input class="traço" id="campoemail" type="email" name="email">
+
+    </form>
+
+    <div id="boxexemplo">
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,321 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+   
+    background-color: gray;
+    
+    
+    
+}
+
+h1, p{
+    color: white;
+    
+}
+
+p{
+    font-size: 30px;
+}
+
+/*Estilização do menu*/
+
+
+
+#main{
+    background-image: url("fundo.jpeg");
+    width: 100%;
+    height: 732px;
+    position: relative;
+    
+    
+    
+    
+    
+}
+
+#main > #main-child >{
+    z-index: 100;
+}
+
+#colum1{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    
+    
+}
+
+#textos-menu{
+    position: relative;
+    z-index: 100;
+}
+
+#email{
+    font-weight: bold;
+}
+
+
+#gradient{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    
+}
+
+#logo{
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    width: 185px;
+    color: red;
+    
+}
+
+#botoes{
+    display: flex;
+    position: relative;
+    margin-right: 45px;
+    top: 10px;
+}
+
+#botoes > div{
+    display: flex;
+   padding: 15px;
+}
+
+#botao1{
+    background-color: red;
+    color: white;
+    width: 70px;
+    height: 35px;
+    border: 0px;
+    border-radius: 5px 5px;
+}
+select{
+    color: white;
+    width: 110px;
+    height: 40px;
+    border-radius: 4px 4px;
+    border-color: white;
+    background-color: transparent;
+}
+
+option{
+    background-color: gray;
+    color: white;
+}
+
+.text1{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    text-align: center;
+    color: white
+}
+
+.text2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    color: white
+    
+}
+
+.text3{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 21px;
+    text-align: center;
+    color: white
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+#email{
+    width: 500px;
+    height: 73px;
+    font-size: 15px;
+    color: gray;
+    
+}
+
+
+
+#botao2{
+    background-color: red;
+    color:white;
+    border: 0px;
+    font-size: 30px;
+    width: 200px;
+    height: 77px;
+}
+
+/* Estilização dos Artigos*/
+
+article{
+    margin-top: 9px;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+
+    
+}
+
+#art1{
+    display: flex;
+    position: relative;
+    text-align: left;
+    justify-content: space-around;
+    
+}
+
+#art1 > div{
+
+position: relative;
+left: 100px;
+top: 35%;
+} 
+
+#text-a1{
+    
+    font-size: 33px;
+}
+
+#img1{
+    position: relative;
+    right: 180px;
+    bottom: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+
+#art2{
+    display: flex;
+    position: relative;
+    text-align: left;
+    justify-content: space-around;
+    
+}
+
+#art2 > div{
+
+    position: relative;
+    right: 100px;
+    top: 35%;
+}
+
+#text-a2{
+    
+    font-size: 33px;
+}
+
+#img2{
+    position: relative;
+    left: 180px;
+    bottom: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+#art3{
+    display: flex;
+    position: relative;
+    text-align: left;
+    justify-content: space-around;
+    
+}
+
+#art3 > div{
+
+position: relative;
+left: 100px;
+top: 35%;
+} 
+
+#text-a3{
+    
+    font-size: 33px;
+}
+
+#img3{
+    position: relative;
+    right: 180px;
+    bottom: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+
+#art4{
+    display: flex;
+    position: relative;
+    text-align: left;
+    justify-content: space-around;
+    
+}
+
+#art4 > div{
+
+    position: relative;
+    right: 100px;
+    top: 35%;
+}
+
+#text-a4{
+    
+    font-size: 33px;
+}
+
+#img4{
+    position: relative;
+    left: 180px;
+    bottom: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+#footer1{
+    position: relative;
+    
+}
+
+#textfinal{
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+
+}
+
+#inputsf{
+display: flex;
+justify-content: center;
+padding: 10px;
+}
+
+#botao3{
+background-color: red;
+color:white;
+border: 0px;
+font-size: 30px;
+width: 200px;
+height: 77px;
+}

@@ -1,140 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netlix FerasTecnologia</title>
-    <link rel="stylesheet" href="Netflix.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Netflix.css">
+  <title>Netflix</title>
 </head>
 <body>
+
+
+<main id="main"> <!--inicial-->
+  
+  <div class="main-child">
+
+
+
+  <div id="colum1">
+
+
+    <div>
+      <img id="logo" src="netflixlog.png">
+    </div>
+  
     
+    <div id="botoes">
 
-   <section class="sec1">
-    <div class="gradient"></div>
-        <h1 class="logo">Netflix</h1>
+      <div>
+       <select name="português" >
+        <option value="Português">🌎Português</option>
+        <option value="Inglês">🌎Inglês</option>
+       </select>
+      </div>
 
-        
-        
-        <form class="form1">
-            <select class="opçoes">
-                <option>🌎Português</option>
-                <option>🌎Inglês</option>
-            </select>
+      <div>
+       <input id="botao1" type="button" value="Entrar" name="entrar">
+      </div>
+    </div>
+    
+  </div>
 
-            <input class="botão1" type="button" name="botão" value="entrar" />
-        </form>
+  
 
-        <div class="Inicial">
-            <h1 class="Texto1">Filmes, Séries e muito mais. Sem limites</h1>
-            <h2 class="texto2">Assista onde quiser. Cancele quando quiser</h2>
-            <h3 class="texto3"> Pronto pra assitir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
-        </div>
+  <div id="textos-menu">
 
-        <form class="form2">
-            <input  class="email2" placeholder="email" type="email" name="email" />
-            <input  class="botao2" type="button" name="botão" value="Vamos lá >"  />
-        </form>
+    
+    <h1 class="text1">Filmes, series e  muito <br> mais. Sem limites</h1>
+    <p class="text2">Assista onde quiser. Cancele quando quiser.</p>
+    <p class="text3">Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
 
-    </section>
+    <div class="inputs">
+      <div>
+        <input id="email" type="text"  style="color: black; " placeholder="   Email" name="email">
+      </div>
 
-    <section class="sec2">
-        <div class="Secundario">
-            <h1 class="Texto4">Aproveite na TV.</h1>
-            <h2 class="Texto5">Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</h2>
-        </div>
+      <div>
+        <input id="botao2" type="button" value="Vamos Lá >" name="botao">
+      </div>
+    </div>
+  </div>
 
-        
-    <div id="image1">
-        <img class="imagem1" src="netflix.gif" />
+  </div>
+  
+  <div id="gradient">
+
+  </div>
+  
+</main>
+
+<article id="art1">
+
+  <div id="text-a1">
+    <h1>Aproveite na TV.</h1>
+    <p>Assista em Smart TVs, PlayStation, Xbox, <br> Chromecast, Apple TV, aparelhos de Blu-ray e <br> outros dispositivos.</p>
+  </div>
+
+  <div>
+    <img id="img1" src="netflix.gif" alt="">
+  </div>
+
+</article>
+
+<article id="art2">
+
+  <div>
+    <img id="img2" src="netflix2.gif" alt="">
+  </div>
+
+  <div id="text-a2">
+    <h1>Assista quando quiser.</h1>
+    <p>Assista no celular, tablet, Smart TV ou <br> notebook sem pagar a mais por isso.</p>
+  </div>
+
+</article>
+
+<article id="art3">
+
+  <div id="text-a3">
+    <h1>Crie perfis para crianças.</h1>
+    <p>Deixe as crianças se aventurarem com seus <br> personagens favoritos em um espaço feito só <br> para elas, sem pagar a mais por isso.</p>
+  </div>
+
+  <div>
+    <img id="img3" src="netflix3.gif" alt="">
+  </div>
+
+</article>
+
+
+<article id="art4">
+
+  <div>
+    <img id="img4" src="netflix4.gif" alt="">
+  </div>
+
+  <div id="text-a4">
+    <h1>Baixe séries para <br>assistir offline.</h1>
+    <p>Disponível em todos os planos, exceto no<br> Básico com anúncios.</p>
+  </div>
+
+</article>
+
+<article id="footer1">
+  <div id="textfinal">
+    <p>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+  </div>
+
+  <div id="inputsf">
+    <div>
+      <input id="email" type="text"  style="color: black; " placeholder="   Email" name="email">
     </div>
 
-    </section>
+    <div>
+      <input id="botao3" type="button" value="Vamos Lá >" name="botao">
+    </div>
 
-    <section class="sec3">
-        <div class="tercerario">
-            <h1 class="texto6">Baixe séries para assistir offline.</h1>
-            <h2 class="texto7">Salve seus títulos favoritos e sempre tenha algo para assistir.</h2>
-        </div>
-
-        <div id="image2">
-            <img class="imagem2" src="netflix2.gif" />
-        </div>
-    </section>
-
-    <section class="sec4">
-        <div class="quartenario">
-            <h1 class="texto8">Assista quando quiser.</h1>
-            <h2 class="texto9">Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.</h2>
-        </div>
-
-        <div id="image3">
-            <img class="imagem3" src="netflix3.gif" />
-        </div>
-    </section>
-
-    <section class="sec5">
-        <div class="quinto">
-            <h1 class="texto10">Crie perfis para crianças.</h1>
-            <h2 class="texto11">Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais <br> por isso.</h2>
-        </div>
-
-        <div id="image4">
-            <img class="imagem4" src="netflix4.gif">
-        </div>
-    </section>
-
-    <!--A a partir daqui, devido eu não ter conseguido fazer um acorrdion, peguei o script(html, css e js) do canal Tiger Codes, -->
-    <section class="faq">
-        <h1 class="texto12">Perguntas frequentes</h1>
-        <dl class="faq-list">
-          <dt class="faq-question">O que é a Netflix?</dt>
-          <dd class="faq-answer">
-            <div>
-              A Netflix é um serviço de transmissão online que oferece uma ampla variedade de séries, filmes e documentários premiados em milhares de aparelhos conectados à internet.<br>
-              <br>
-              Você pode assistir a quantos filmes e séries quiser, quando e onde quiser, sem comerciais – tudo por um preço mensal bem acessível. Aqui você sempre encontra novidades. A cada semana, adicionamos novas séries e filmes.
-            </div>
-          </dd>
-          <dt class="faq-question">Quanto custa a Netflix?</dt>
-          <dd class="faq-answer">
-            <div>
-              Assista à Netflix no seu celular, tablet, Smart TV, notebook ou aparelho de streaming por uma taxa mensal única. Os planos variam de R$21,90 a R$45,90 por mês. Sem contrato nem taxas extras.
-            </div>
-          </dd>
-          <dt class="faq-question">Onde posso assistir?</dt>
-          <dd class="faq-answer">
-            <div>
-              Assista onde quiser, o quanto quiser e em um número ilimitado de aparelhos. Faça login com sua conta Netflix em netflix.com para começar a assistir no computador ou em qualquer aparelho conectado à Internet compatível com o aplicativo Netflix, como Smart TVs, smartphones, tablets, aparelhos de streaming e videogames.<br>
-              <br>
-              Você também pode baixar a sua série favorita com o aplicativo Netflix para iOS, Android ou Windows 10. Use downloads para levar a Netflix para onde quiser sem precisar de conexão com a Internet. Leve a Netflix com você para qualquer lugar.
-            </div>
-          </dd>
-          <dt class="faq-question">Como faço para cancelar?</dt>
-          <dd class="faq-answer">
-            <div>
-              A Netflix é flexível. Não há contratos nem compromissos. Você pode cancelar a sua conta na internet com apenas dois cliques. Não há taxa de cancelamento – você pode começar ou encerrar a sua assinatura a qualquer momento.
-            </div>
-          </dd>
-          <dt class="faq-question">O que eu posso assistir na Netflix?</dt>
-          <dd class="faq-answer">
-            <div>
-              A Netflix tem um grande catálogo de filmes, documentários, séries, originais Netflix premiados e muito mais. Assista o quanto quiser, quando quiser.
-            </div>
-          </dd>
-        </dl>
-        <!--Fim do script do Tiger-->
-        <div class="Final">
-            <h2 class="texto13">Pronto pra assistir? Informe seu email para criar ou reiniciar sua assinatura.</2>
-        </div>
-        <form class="formfinal">
-            <input  class="email2" placeholder="email" type="email" name="email" />
-            <input  class="botao2" type="button" name="botão" value="Vamos lá >"  />
-        </form>
-    
-      </section>
-    <script src="script.js"></script>
-
-
+  </div>
+</article>
 </body>
 </html>

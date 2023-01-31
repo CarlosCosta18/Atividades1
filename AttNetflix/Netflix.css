@@ -1,394 +1,321 @@
-html{
-    width: 1540px;
+*{
+    margin: 0px;
+    padding: 0px;
+    
 }
 
 body{
-    background-color: rgb(43, 42, 42);
-    background-position: absolute;
-    width: 1540px;
-    margin: 0px;
-    padding: 0px;
-    top: 0px;
+   
+    background-color: gray;
+    
+    
+    
+}
 
-    
-    
-    
+h1, p{
+    color: white;
     
 }
 
 p{
-    color: white;
+    font-size: 30px;
 }
 
-h1 , h2, h3 {
-    max-width: 1546px;
-    max-height: 1546;
-    color: white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
+/*Estilização do menu*/
 
 
-.sec1{
-    height: 730px;
-    background-image: url('fundo.jpeg');
-    background-repeat: repeat;
-    background-position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0px;
+
+#main{
+    background-image: url("fundo.jpeg");
+    width: 100%;
+    height: 732px;
     position: relative;
-    margin-bottom: 10px;
+    
+    
+    
+    
     
 }
 
-.gradient{
-    background: rgba(0, 0, 0, 0.5);
+#main > #main-child >{
+    z-index: 100;
+}
+
+#colum1{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    
+    
+}
+
+#textos-menu{
+    position: relative;
+    z-index: 100;
+}
+
+#email{
+    font-weight: bold;
+}
+
+
+#gradient{
+    background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     top: 0px;
     left: 0px;
-    right: 0px;
     bottom: 0px;
+    right: 0px;
+    
 }
 
-.logo{
+#logo{
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    width: 185px;
     color: red;
-    font-size: 60px;
-    position: absolute;
-   top: 0px;
-   left: 55px;
-   padding: 0px;
-   margin: 0px;
-
-
-}
-
-.form1{
-    position: absolute;
-    right: 45px;
-    top: 0px;
-    padding: 30px;
-    margin: 10px;
-    z-index: 10;
     
-
 }
 
-.opçoes{
-    color: white;
-    height: 35px;
-    width: 100px;
-    background-color: rgba(2, 2, 3, 30);
+#botoes{
+    display: flex;
+    position: relative;
+    margin-right: 45px;
+    top: 10px;
 }
 
-.botão1{
-    color: white;
-    height: 35px;
-    width: 100px;
+#botoes > div{
+    display: flex;
+   padding: 15px;
+}
+
+#botao1{
     background-color: red;
-    border-radius: 5px;
-}
-
-.Inicial{
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-    z-index: 10;
-}
-
-
-.Texto1{
-    justify-content: center;
-    display: flex;
-    font-size: 60px;
-    max-width: 650px;
-    text-align: center;
-    margin-bottom: -10px;
-    
-    
-
-}
-
-.texto2{
-    justify-content: center;
-    display: flex;
-    font-size: 25px;
-    text-align: center;
-    
-}
-    
-
-.form2{
-    position: absolute;
-    margin: -10px;
-    justify-content: center;
-    top: 540px;
-    right: 665px;
-    margin-right: -250px;
-    padding: 0px;
-    
-    
-    
-}
-
-.email2{
-    width: 504px;
-    height: 60px;
-    border-style: hidden;
-}
-
-.botao2{
     color: white;
-    background-color: red;
-    height: 62px;
-    width: 211px;
-    margin: -4px;
-    border-style: hidden;
-
+    width: 70px;
+    height: 35px;
+    border: 0px;
+    border-radius: 5px 5px;
 }
-    
-
-
-.sec2{
-    background-color: rgb(0, 0, 0);
-    height: 465px;
-    width: 1540px;
-    padding: 0px;
-    margin-bottom: -10px;
-}
-
-.Secundario{
-    position: absolute;
-    padding-top: 0px;
-    justify-content: center;
-    text-align: center;
-    top: 820px;
-    display: block;
-    margin-right: 1120px;
-    padding-right: -220px;
-    
-    
-}
-
-.Texto4{
-    position: absolute;
-    right: -135px;
-    font-size: 50px;
-    
-}
-
-.Texto5{
-    position: relative;
-    width: 560px;
-    left: 210px;
-    top: 100px;
-    
-
-}
-#image1{
-    position: absolute;
-    margin-right: 1120px;
-    margin-left: 1120px;
-    top: 920px;
-}
-
-.imagem1{
-    position: absolute;
-    top: -140px;
-    left: -145px;
-    width: 380px;
-    height: 350px;
-}
-
-
-.sec3{
-    background-color: black;
-    height: 465px;    
-    width: 1540px;
-    padding: 0px;
-    margin-bottom: -10px;
-}
-
-
-.texto6{
-    position: absolute;
-    width: 450px;
-    right: 340px;
-    top: 1260px;
-    font-size: 50px;
-    text-align: center;
-    justify-content: center;
-}
-
-.texto7{
-    position: relative;
-    width: 560px;
-    left: 780px;
-    top: 300px;
-}
-
-.imagem2{
-    position: absolute;
-    left: 295px;
-    width: 350px;
-    height: 350px;
-    top: 1250px;
-}
-
-.sec4{
-    background-color: black;
-    height: 465px;
-    width: 1540px;
-    padding: 0px;
-    margin-bottom: -10px;
-}
-
-
-.texto8{
-    position: absolute;
-    width: 600px;
-    font-size: 50px;
-    text-align: center;
-    left: 210px;
-    top: 1780px;
-}
-.texto9{
-    position: relative;
-    top: 250px;
-    text-align: justify;
-    max-width: 700px;
-    width: 500px;
-    right: -236px;
-}
-
-.imagem3{
-    position: absolute;
-    top: 1725px;
-    right: 240px;
-    width: 350px;
-    height: 350px;
-}
-
-.texto10{
-    position: absolute;
-    width: 400px;
-    font-size: 50px;
-    right: 370px;
-    top: 2180px;
-}
-
-.texto11{
-    position: relative;
-    text-align: justify;
-    width: 550px;
-    top: 240px;
-    left: 775px;
-}
-
-.imagem4{
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    top: 2200px;
-    left: 300px;
-}
-
-.sec5{
-    background-color: black;
-    height: 465px;
-    width: 1540px;
-    padding: 0px;
-    margin-bottom: 10px;
-}
-
-.perguntasfreq{
-    background-color: black;
-    margin-top: -30px;
-    padding: 0px;
-}
-
-.texto12{
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    top: 30px;
-    font-size: 50px;
-}
- /*  Script tiger codes, com algumas estilizações feitas por mim */
-  .faq {
-    background-color: black;
-    margin-top: -30px;
-    
-  }
-  
-  .faq h1 {
-    text-align: center;
+select{
     color: white;
-  }
-  
-  .faq-list {
-    margin: 50px auto;
-    max-width: 815px;
-    font-size: 26px;
-  }
-  
-  .faq-question,
-  .faq-answer {
-    background: #303030;
+    width: 110px;
+    height: 40px;
+    border-radius: 4px 4px;
+    border-color: white;
+    background-color: transparent;
+}
+
+option{
+    background-color: gray;
     color: white;
-  }
-  
-  .faq-question {
-    padding: 20px 30px;
+}
+
+.text1{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    text-align: center;
+    color: white
+}
+
+.text2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    color: white
+    
+}
+
+.text3{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 21px;
+    text-align: center;
+    color: white
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    
+}
+
+input:hover{
     cursor: pointer;
-    margin-top: 8px;
-    margin-bottom: 1px;
-  }
-  
-  .faq-question::after {
-    content: " ";
-    display: block;
-    width: 20px;
-    height: 20px;
-    background: url("../img/fechar.svg") no-repeat center center;
-    transform: rotate(45deg);
-  }
-  
-  .faq-question.active::after {
-    transform: rotate(0deg);
-  }
-  
-  .faq-answer {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
-  }
-  
-  .faq-answer > div {
-    padding: 30px;
-  }
-  
-  .faq-answer.active {
-    position: relative;
-    right: 40px;
-    max-height: 1200px;
-    width: 815px;
+}
+
+#email{
+    width: 500px;
+    height: 73px;
+    font-size: 15px;
+    color: gray;
     
-  }
-  
-  .texto13{
-      justify-content: center;
-      text-align: center;
-      position: relative;
-      font-size: 20px;
+}
 
-  }
 
-  .formfinal{
-      position: relative;
-      justify-content: center;
-      text-align: center;
-  }
+
+#botao2{
+    background-color: red;
+    color:white;
+    border: 0px;
+    font-size: 30px;
+    width: 200px;
+    height: 77px;
+}
+
+/* Estilização dos Artigos*/
+
+article{
+    margin-top: 9px;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+
+    
+}
+
+#art1{
+    display: flex;
+    position: relative;
+    text-align: left;
+    justify-content: space-around;
+    
+}
+
+#art1 > div{
+
+position: relative;
+left: 100px;
+top: 35%;
+} 
+
+#text-a1{
+    
+    font-size: 33px;
+}
+
+#img1{
+    position: relative;
+    right: 180px;
+    bottom: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+
+#art2{
+    display: flex;
+    position: relative;
+    text-align: left;
+    justify-content: space-around;
+    
+}
+
+#art2 > div{
+
+    position: relative;
+    right: 100px;
+    top: 35%;
+}
+
+#text-a2{
+    
+    font-size: 33px;
+}
+
+#img2{
+    position: relative;
+    left: 180px;
+    bottom: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+#art3{
+    display: flex;
+    position: relative;
+    text-align: left;
+    justify-content: space-around;
+    
+}
+
+#art3 > div{
+
+position: relative;
+left: 100px;
+top: 35%;
+} 
+
+#text-a3{
+    
+    font-size: 33px;
+}
+
+#img3{
+    position: relative;
+    right: 180px;
+    bottom: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+
+#art4{
+    display: flex;
+    position: relative;
+    text-align: left;
+    justify-content: space-around;
+    
+}
+
+#art4 > div{
+
+    position: relative;
+    right: 100px;
+    top: 35%;
+}
+
+#text-a4{
+    
+    font-size: 33px;
+}
+
+#img4{
+    position: relative;
+    left: 180px;
+    bottom: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+#footer1{
+    position: relative;
+    
+}
+
+#textfinal{
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+
+}
+
+#inputsf{
+display: flex;
+justify-content: center;
+padding: 10px;
+}
+
+#botao3{
+background-color: red;
+color:white;
+border: 0px;
+font-size: 30px;
+width: 200px;
+height: 77px;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <script>
+        const resultado = document.querySelector(' .resultado ');
+        const confirmar = document.querySelector(' .igual' );
+
+
+        function insert( valor ){
+
+        document.getElementById('resultado').innerHTML += valor;
+            
+        }
+
+        function clean(){
+            document.getElementById('resultado').innerHTML = "";
+        }
+
+        function back(){
+            var resultado = document.getElementById('resultado').innerHTML;
+            document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length -1);
+        }
+
+        function calcular(){
+
+            var resultado = document.getElementById('resultado').innerHTML;
+            if(resultado){
+            document.getElementById('resultado').innerHTML = eval(resultado);
+            }
+         else{
+            document.getElementById('resultado').innerHTML = "Coloque algum calculo..."
+            } 
+    
+        }
+        
+            
+
+
+        
+    </script>
+
+    <style>
+
+        body{
+            background-color: darkcyan;
+        }
+
+        
+
+        #container-child{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 15px;
+         background-color: aqua;  
+         font-size: 35px;
+         border: solid 6px 2px black;
+            
+        }
+
+        .botao{
+            user-select:none;
+            color: black;
+            background-color: darkgray;
+            padding:7px;
+            text-align: center;
+            width: 45px;
+        }
+
+        .botao:hover{
+            color: rgb(0, 0, 0);
+            background-color: rgb(250, 250, 250);
+            
+        }
+
+        p{
+            word-wrap: break-word;
+            margin: 4px;
+            height: 46px;
+            color: black;
+            text-align: right;
+            background-color: white;
+            
+        }
+        
+        
+
+       
+
+    </style>
+
+</head>
+<body>
+
+    <div id="container-main">
+        
+      
+
+            <div id="container-child">
+                <p class="result" id="resultado"></p>
+                    <table>
+                        <tr>
+                            <td class="botao" id="porcen" onclick="insert('%')">%</td>
+                            <td class="botao" onclick="clean()">C</td>
+                            <td class="botao" onclick="back()"><</td>
+                            <td class="botao" onclick="insert('/')">/</td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td class="botao" onclick="insert('7')">7</td>
+                            <td class="botao" onclick="insert('8')">8</td>
+                            <td class="botao" onclick="insert('9')">9</td>
+                            <td class="botao" onclick="insert('*')">x</td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td class="botao" onclick="insert('4')">4</td>
+                            <td class="botao" onclick="insert('5')">5</td>
+                            <td class="botao" onclick="insert('6')">6</td>
+                            <td class="botao" onclick="insert('-')">-</td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td class="botao" onclick="insert('1')">1</td>
+                            <td class="botao" onclick="insert('2')">2</td>
+                            <td class="botao" onclick="insert('3')">3</td>
+                            <td class="botao" onclick="insert('+')">+</td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td class="botao" onclick="insert('0')">0</td>
+                            <td class="botao" onclick="insert('.')">.</td>
+                            <td  class="botao" rowspan="2" onclick="calcular()" style="width: 105px;" >=</td>
+                        </tr>
+                    </table>
+
+
+                
+            </div>
+    </div>
+    
+</body>
+</html>
